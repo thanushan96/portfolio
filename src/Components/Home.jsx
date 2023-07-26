@@ -32,7 +32,7 @@ const Home = () => {
             </Link>
           </div>
           </div>
-          <div className="mt-[14rem]">
+          <div className="mt-[14rem] sm:mt-[10rem] md:mt-[0rem] ">
             <img
               src={HeroImage}
               alt="my profile"
