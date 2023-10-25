@@ -5,66 +5,110 @@ import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faArrowRight,
+  faExternalLinkAlt,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
       src: arrayDestruct,
+      demoLink: "https://youtu.be/FPyVsbXkO2w",
+      githubLink: "https://github.com/yourusername/project1",
+      title: "Project 1 Title",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
       id: 2,
       src: reactParallax,
+      demoLink: "https://example.com/demo2",
+      githubLink: "https://github.com/yourusername/project2",
+      title: "Project 2 Title",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
       id: 3,
       src: navbar,
+      demoLink: "https://example.com/demo3",
+      githubLink: "https://github.com/yourusername/project3",
+      title: "Project 3 Title",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
       id: 4,
       src: reactSmooth,
+      demoLink: "https://example.com/demo4",
+      githubLink: "https://github.com/yourusername/project4",
+      title: "Project 4 Title",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
       id: 5,
       src: installNode,
+      demoLink: "https://example.com/demo5",
+      githubLink: "https://github.com/yourusername/project5",
+      title: "Project 5 Title",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
       id: 6,
       src: reactWeather,
+      demoLink: "https://example.com/demo6",
+      githubLink: "https://github.com/yourusername/project6",
+      title: "Project 6 Title",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
   ];
 
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen  pt-[5rem] md:pt-[26rem] pb-[10rem] sm:pb-[30rem]"
+      className="bg-gradient-to-b from-slate-100 to-gray-400 w-full text-black min-h-screen pt-5 md:pt-26 pb-10 sm:pb-30"
     >
-      <div className=" max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+      <div className="max-w-screen-lg  mx-auto flex flex-col justify-center w-full h-full py-20">
+        <div className="">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500 ">
             Portfolio
           </p>
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-              <img
-                src={src}
-                alt=""
-                className="rounded-md duration-200 hover:scale-105"
-              />
-              <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
-                </button>
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 sm:px-0">
+          {portfolios.map(
+            ({ id, src, demoLink, githubLink, title, description }) => (
+              <div key={id} className="rounded-lg overflow-hidden shadow-lg">
+                <a href={demoLink} target="_blank" rel="noopener noreferrer">
+                  <img
+                    src={src}
+                    alt=""
+                    className="rounded-md transition-transform transform hover:scale-105 cursor-pointer"
+                  />
+                </a>
+                <div className="p-4">
+                  <h2 className="text-lg md:text-lg font-semibold">{title}</h2>
+                  <p className="text-sm md:text-sm text-gray-600 mt-2">
+                    {description}
+                  </p>
+                  <button
+                    onClick={() => window.open(githubLink, "_blank")}
+                    className="w-full bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-md transition-transform transform hover:scale-105 cursor-pointer mt-4 flex items-center justify-evenly"
+                  >
+                    View GitHub Repo
+                    <FontAwesomeIcon icon={faExternalLinkAlt} />
+                  </button>
+                </div>
               </div>
-            </div>
-          ))}
+            )
+          )}
         </div>
       </div>
     </div>

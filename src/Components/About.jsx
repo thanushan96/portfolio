@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white pb-[30rem]  pt-[30rem]  sm:pt-[26rem] lg:pt-[20rem]"
+      className="w-full h-screen bg-gradient-to-b from-slate-100  to-gray-400 text-black pb-[30rem]  pt-[30rem]  sm:pt-[26rem] lg:pt-[20rem]"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
         <div className="pb-8">
@@ -31,8 +31,6 @@ const About = () => {
           quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
           Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
           magni quo! Eum cupiditate debitis labore.
-
-
         </p>
       </div>
     </div>
