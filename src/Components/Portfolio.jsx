@@ -6,10 +6,7 @@ import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faArrowRight,
-  faExternalLinkAlt,
-} from "@fortawesome/free-solid-svg-icons";
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
 const Portfolio = () => {
   const portfolios = [
