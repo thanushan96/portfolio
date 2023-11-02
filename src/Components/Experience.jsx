@@ -4,10 +4,14 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import bootstrap from "../assets/bootstrap.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import flask from "../assets/Flask.png";
+import net from "../assets/NET_Core_Logo.png";
+import jenkins from "../assets/jenkins.png";
+import spring from "../assets/spring boot.png";
+import mongo from "../assets/mysql_workbench.png";
 
 const Experience = () => {
   const techs = [
@@ -31,33 +35,57 @@ const Experience = () => {
     },
     {
       id: 4,
-      src: reactImage,
-      title: "React",
-      style: "shadow-blue-600",
-    },
-    {
-      id: 5,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
     {
+      id: 5,
+      src: bootstrap,
+      title: "Bootstrap",
+      style: "shadow-indigo-800",
+    },
+    {
       id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
+      src: reactImage,
+      title: "React",
+      style: "shadow-cyan-600",
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      src: flask,
+      title: "flask",
+      style: "shadow-gray-900",
+    },
+    {
+      id: 8,
+      src: net,
+      title: ".Net",
+      style: "shadow-indigo-800",
+    },
+    {
+      id: 9,
+      src: spring,
+      title: "spring boot",
+      style: "shadow-green-800",
     },
     {
       id: 8,
       src: github,
       title: "GitHub",
-      style: "shadow-gray-400",
+      style: "shadow-gray-950",
+    },
+    {
+      id: 11,
+      src: mongo,
+      title: "mongo db",
+      style: "shadow-green-800",
+    },
+    {
+      id: 12,
+      src: jenkins,
+      title: "Jenkins",
+      style: "shadow-red-800",
     },
   ];
 
@@ -74,7 +102,7 @@ const Experience = () => {
           <p className="py-6">These are the technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
