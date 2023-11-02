@@ -15,12 +15,13 @@ const Home = () => {
           <h2 className="text-4xl sm:text-7xl font-bold text-black">
             I'm Full stack Developer
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis
-            ex fugit, beatae nobis, deserunt a aperiam aut expedita iusto
-            dolorum voluptatem. Veniam sapiente, nesciunt maiores tenetur eos
-            iste vitae mollitia! Nesciunt, quibusdam soluta voluptas quas fuga
-            vero enim, necessitatibus illo dolore cum doloribus excepturi atque
+          <p className="text-justify text-gray-500 py-4 max-w-md">
+            with a strong foundation in front-end and back-end technologies.
+            Proficient in HTML, CSS, JavaScript, React, Node.js, and database
+            management. Additionally, I have experience in AI and machine
+            learning, with a deep understanding of neural networks. Skilled in
+            Agile methodologies and dedicated to creating innovative web
+            solutions.
           </p>
 
           <div>
