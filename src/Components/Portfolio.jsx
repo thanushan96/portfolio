@@ -2,7 +2,7 @@ import React from "react";
 import PhishGuard from "../assets/portfolio/PhishGuard.jpg";
 import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
+import portfolio from "../assets/portfolio/portfolio.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -21,10 +21,10 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: reactParallax,
+      src: portfolio,
       demoLink: "https://example.com/demo2",
       githubLink: "https://github.com/yourusername/project2",
-      title: "Project 2 Title",
+      title: "Portfolio Website",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },

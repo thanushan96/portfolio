@@ -11,8 +11,11 @@ import flask from "../assets/Flask.png";
 import net from "../assets/NET_Core_Logo.png";
 import jenkins from "../assets/jenkins.png";
 import spring from "../assets/spring boot.png";
-import mongo from "../assets/mysql_workbench.png";
-
+import mongo from "../assets/MongoDB.png";
+import tensorflow from "../assets/Tensorflow.png";
+import mysql from "../assets/mysql_workbench.png";
+import ssms from "../assets/ssms.png";
+import postgresql from "../assets/Postgresql.png";
 const Experience = () => {
   const techs = [
     {
@@ -70,19 +73,44 @@ const Experience = () => {
       style: "shadow-green-800",
     },
     {
-      id: 8,
-      src: github,
-      title: "GitHub",
-      style: "shadow-gray-950",
+      id: 10,
+      src: tensorflow,
+      title: "Tensorflow",
+      style: "shadow-orange-900",
     },
     {
       id: 11,
+      src: mysql,
+      title: "Mysql",
+      style: "shadow-blue-600",
+    },
+    {
+      id: 12,
       src: mongo,
       title: "mongo db",
       style: "shadow-green-800",
     },
     {
-      id: 12,
+      id: 13,
+      src: postgresql,
+      title: "Postgresql",
+      style: "shadow-blue-800",
+    },
+    {
+      id: 14,
+      src: ssms,
+      title: "MS Sql",
+      style: "shadow-yellow-800",
+    },
+
+    {
+      id: 15,
+      src: github,
+      title: "GitHub",
+      style: "shadow-gray-950",
+    },
+    {
+      id: 16,
       src: jenkins,
       title: "Jenkins",
       style: "shadow-red-800",
@@ -92,7 +120,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-slate-100  to-gray-400 w-full h-screen pb-[30rem]  pt-[32rem] sm:pt-[26rem]"
+      className="bg-gradient-to-b from-slate-100  to-gray-400 w-full h-screen pb-[50rem]  pt-[52rem] sm:pt-[30rem]"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-black ">
         <div>
