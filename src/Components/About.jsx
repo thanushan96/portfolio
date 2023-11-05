@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-slate-100  to-gray-400 text-black pb-[30rem]  pt-[30rem]  sm:pt-[26rem] lg:pt-[20rem]"
+      className="w-full h-screen bg-gradient-to-b from-slate-100  to-gray-400 text-black pb-[30rem]  pt-[35rem]  sm:pt-[26rem] lg:pt-[22rem]"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
         <div className="pb-8">
@@ -13,24 +13,36 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl  ">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+        <p className="text-xl  text-justify">
+          I'm an enthusiastic software engineering student, awaiting the final
+          marks for my BSc in Software Engineering from ICBT CAMPUS (CMU - UK).
+          With a strong foundation in programming languages like HTML, CSS,
+          JavaScript, and other backend technogies like C#, Java, Python, I've
+          applied my knowledge to projects, including a Phishing URL Detection
+          System and an E-commerce site etc. Beyond coding, I've delved into
+          machine learning with tools like TensorFlow and Keras. My passion for
+          software development, practical experience, and machine learning
+          expertise make me a promising candidate for innovative software
+          engineering roles.
         </p>
 
         <br />
 
-        <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+        <p className="text-xl text-justify">
+          My journey in the tech world has also been complemented by practical
+          experience. I've spent one year as a Junior Security Analyst at
+          CryptoGen Pvt Ltd, where I honed my skills in monitoring SIEM/EDR
+          systems around the clock, escalating security threats and incidents,
+          and crafting Cyber Threat Intelligence reports. Additionally, I've
+          spent six months as an IT Support Trainee at Eureka Technology
+          Partners, providing comprehensive client support, managing incidents,
+          conducting firewall and server maintenance, and excelling in desktop
+          and laptop repair and maintenance. These professional experiences have
+          broadened my horizons and further fueled my passion for the
+          ever-evolving field of software engineering. I'm now eager to leverage
+          my unique blend of education and practical knowledge to contribute to
+          dynamic teams and make a meaningful impact in the software engineering
+          realm.
         </p>
       </div>
     </div>
