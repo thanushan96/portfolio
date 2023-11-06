@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-slate-100  to-gray-400 text-black pb-[30rem]  pt-[35rem]  sm:pt-[26rem] lg:pt-[22rem]"
+      className="w-full h-screen bg-gradient-to-b from-slate-100  to-gray-400 text-black pb-[30rem]  pt-[38rem]  sm:pt-[26rem] lg:pt-[22rem]"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
         <div className="pb-8">
@@ -15,15 +15,15 @@ const About = () => {
 
         <p className="text-xl  text-justify">
           I'm an enthusiastic software engineering student, awaiting the final
-          marks for my BSc in Software Engineering from ICBT CAMPUS (CMU - UK).
-          With a strong foundation in programming languages like HTML, CSS,
-          JavaScript, and other backend technogies like C#, Java, Python, I've
-          applied my knowledge to projects, including a Phishing URL Detection
-          System and an E-commerce site etc. Beyond coding, I've delved into
-          machine learning with tools like TensorFlow and Keras. My passion for
-          software development, practical experience, and machine learning
-          expertise make me a promising candidate for innovative software
-          engineering roles.
+          marks for my BSc in Software Engineering Research Project from ICBT
+          CAMPUS (CMU - UK). With a strong foundation in programming languages
+          like HTML, CSS, JavaScript, and other backend technogies like C#,
+          Java, Python, I've applied my knowledge to projects, including a
+          Phishing URL Detection System and an E-commerce site etc. Beyond
+          coding, I've delved into machine learning with tools like TensorFlow
+          and Keras. My passion for software development, practical experience,
+          and machine learning expertise make me a promising candidate for
+          innovative software engineering roles.
         </p>
 
         <br />

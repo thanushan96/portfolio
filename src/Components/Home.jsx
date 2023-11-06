@@ -17,11 +17,11 @@ const Home = () => {
           </h2>
           <p className="text-justify text-gray-500 py-4 max-w-md">
             with a strong foundation in front-end and back-end technologies.
-            Proficient in HTML, CSS, JavaScript, React, Node.js, and database
-            management. Additionally, I have experience in AI and machine
-            learning, with a deep understanding of neural networks. Skilled in
-            Agile methodologies and dedicated to creating innovative web
-            solutions.
+            Proficient in HTML, CSS, JavaScript, React.js, C#, Java, Python and
+            database management. Additionally, I have experience in AI and
+            machine learning, with a deep understanding of neural networks.
+            Skilled in Agile methodologies and dedicated to creating innovative
+            web solutions.
           </p>
 
           <div>
