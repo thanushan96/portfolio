@@ -4,12 +4,12 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-gradient-to-b from-gray-400 to-gray-800 p-4 text-black  pb-[30rem] pt-[24rem]"
+      className="w-full h-screen bg-gradient-to-b from-gray-400 to-gray-800 p-4 text-black  pb-[25rem] pt-[25rem] sm:pt-[25rem]"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full ">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Contact
+          <p className="text-4xl font-bold">
+            <span className="border-b-4 border-gray-500 ">Contact</span>
           </p>
           <p className="py-6">Submit the form below to get in touch with me</p>
         </div>

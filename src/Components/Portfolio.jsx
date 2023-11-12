@@ -28,7 +28,7 @@ const Portfolio = () => {
         "https://github.com/thanushan96/Phishing-URL-Detection-System-API.git",
       title: "PhishGuard API",
       description:
-        "Developed the Python FLASK API for the PhishGuard project, leveraging deep neural networks for URL processing & extraction. The main goal is to predict URL legitimacy, aiding users in identifying potential phishing threats with improved accuracy.",
+        "Developed the Python FLASK API for the PhishGuard project, leveraging deep neural networks for URL processing & extraction. The main goal is to predict URL legitimacy, aiding users in identifying potential phishing threats .",
     },
     {
       id: 3,
@@ -46,7 +46,7 @@ const Portfolio = () => {
       githubLink: "https://github.com/thanushan96/Calculator.git",
       title: "Calculator",
       description:
-        "Designed and built a dynamic calculator using React, HTML, and CSS, providing users with a feature-rich tool for performing various mathematical operations. The intuitive user interface allows for seamless input and calculation, making it a handy utility for solving mathematical equations and tasks.",
+        "Designed and built a dynamic calculator using React, HTML, and CSS, providing users with a feature-rich tool for performing various mathematical operations. The intuitive user interface allows for seamless input and calculation, making it a handy utility for solving mathematical equations and tasks with ease.",
     },
     {
       id: 5,

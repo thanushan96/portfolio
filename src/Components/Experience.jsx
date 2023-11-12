@@ -120,12 +120,12 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-slate-100  to-gray-400 w-full h-screen pb-[50rem]  pt-[52rem] sm:pt-[30rem]"
+      className="bg-gradient-to-b from-slate-100  to-gray-400 w-full h-screen pb-[60rem] sm:pb-[22rem]  pt-[52rem] sm:pt-[30rem]"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-black ">
         <div>
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
-            Experience
+          <p className="text-4xl font-bold">
+            <span className="border-b-4 border-gray-500 ">Experience</span>
           </p>
           <p className="py-6">These are the technologies I've worked with</p>
         </div>

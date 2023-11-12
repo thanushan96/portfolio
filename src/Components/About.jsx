@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-slate-100  to-gray-400 text-black pb-[50rem]  pt-[50rem]  sm:pt-[26rem] lg:pt-[22rem]"
+      className="w-full h-screen bg-gradient-to-b from-slate-100  to-gray-400 text-black pb-[35rem]  pt-[36rem]  sm:pt-[26rem] lg:pt-[22rem]"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
         <div className="pb-8">
@@ -13,7 +13,7 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl  text-justify">
+        <p className="text-base text-justify">
           I'm an enthusiastic software engineering student, awaiting the final
           marks for my BSc in Software Engineering Research Project from ICBT
           CAMPUS (CMU - UK). With a strong foundation in programming languages
@@ -28,7 +28,7 @@ const About = () => {
 
         <br />
 
-        <p className="text-xl text-justify">
+        <p className="text-base text-justify">
           My journey in the tech world has also been complemented by practical
           experience. I've spent one year as a Junior Security Analyst at
           CryptoGen Pvt Ltd, where I honed my skills in monitoring SIEM/EDR
