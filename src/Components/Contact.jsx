@@ -16,7 +16,6 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Add your form submission logic here
     try {
       await fetch("https://getform.io/f/29464d2d-88fd-4530-80e0-b061b33c12aa", {
         method: "POST",
