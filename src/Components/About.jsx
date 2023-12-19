@@ -14,16 +14,16 @@ const About = () => {
         </div>
 
         <p className="text-base text-justify">
-          I'm an enthusiastic software engineering student, awaiting the final
-          marks for my BSc in Software Engineering Research Project from ICBT
-          CAMPUS (CMU - UK). With a strong foundation in programming languages
-          like HTML, CSS, JavaScript, and other backend technologies like C#,
-          Java, Python, I've applied my knowledge to projects, including a
-          Phishing URL Detection System and an E-commerce site etc. Beyond
-          coding, I've delved into machine learning with tools like TensorFlow
-          and Keras. My passion for software development, practical experience,
-          and machine learning expertise make me a promising candidate for
-          innovative software engineering roles.
+          I'm an enthusiastic software engineering student who has recently
+          completed my BSc (Hons) Software Engineering Degree at ICBT CAMPUS
+          (CMU - UK). With a strong foundation in programming languages like
+          HTML, CSS, JavaScript, and other backend technologies like C#, Java,
+          Python, I've applied my knowledge to projects, including a Phishing
+          URL Detection System and an E-commerce site etc. Beyond coding, I've
+          delved into machine learning with tools like TensorFlow and Keras. My
+          passion for software development, practical experience, and machine
+          learning expertise make me a promising candidate for innovative
+          software engineering roles.
         </p>
 
         <br />
