@@ -47,10 +47,10 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-gradient-to-b from-gray-400 to-gray-800 p-4 text-black  pb-[25rem] pt-[25rem] sm:pt-[25rem]"
+      className="w-full h-screen bg-gradient-to-b from-gray-400 to-gray-800 p-4 text-black  pb-[25rem] pt-[23rem] sm:pt-[22rem]"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full ">
-        <div className="pb-8">
+        <div>
           <p className="text-4xl font-bold">
             <span className="border-b-4 border-gray-500 ">Contact</span>
           </p>
@@ -65,7 +65,7 @@ const Contact = () => {
           <div className=" flex justify-center items-center">
             <form
               onSubmit={handleSubmit}
-              className=" flex flex-col w-full md:w-1/2"
+              className="flex flex-col w-full md:w-1/2"
             >
               <input
                 type="text"
@@ -97,7 +97,7 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 mt-[3rem] mx-auto flex items-center rounded-md hover:scale-110 duration-300"
+                className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 mt-[1rem] mx-auto flex items-center rounded-md hover:scale-110 duration-300"
               >
                 Let's talk
               </button>
